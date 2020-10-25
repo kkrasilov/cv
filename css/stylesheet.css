@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #eeeeee;
+  margin-top: 20px;
+}
+
+.bg-white {
+  background-color: white;
+}
+
+.box-shadow {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  min-height: 200px;
+}
+
+.int-info {
+  padding-left: 15px;
+}
+
+.list-skills li {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  list-style-type: none;
+}
+
+.list-skills li:not(:first-of-type) {
+  border-top: 1px solid #e0e0e0;
+}
+
+@media (max-width: 576px) {
+  body {
+    margin-top: 0;
+  }
+}

@@ -1,0 +1,29 @@
+.text-center {
+  text-align: center;
+}
+
+.text-about-me {
+  color: white;
+  font-size: 14px;
+}
+
+.text-large {
+  font-size: 20px;
+}
+
+.text-middle {
+  font-size: 18px;
+}
+
+.text-date {
+  color: #0099CC;
+}
+
+.fa-contact {
+  color: white;
+  font-size: 24px;
+}
+
+.fa-large {
+  font-size: 50px;
+}
