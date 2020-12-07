@@ -19,6 +19,10 @@
   color: #0099CC;
 }
 
+.text-semi-bold {
+  font-weight: 500;
+}
+
 .fa-contact {
   color: white;
   font-size: 24px;
@@ -26,4 +30,10 @@
 
 .fa-large {
   font-size: 50px;
+}
+
+.skills-title {
+  color: #37474F;
+  font-weight: 500;
+  font-size: 17px !important;
 }

@@ -33,18 +33,18 @@ img {
 
 .info-contact-col-2 {
   padding-bottom: 20px;
-  border-top: 1px solid #3F729B;
+  border-bottom: 1px solid #3F729B;
 }
 
-.info-contact-col-2-first {
-  border-top: none;
+.info-contact-col-2-end {
+  border-bottom: none;
 }
 
-a {
-  text-decoration: none !important;
+.about-me-link {
   color: white;
+  text-decoration: none !important;
 }
 
-a:hover {
+.about-me-link:hover {
   color: #006064;
 }

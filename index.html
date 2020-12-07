@@ -24,37 +24,41 @@
         </div>
       </div>
       <div class="row contact-info">
-        <div class="col-3 text-center pt-4">
+        <div class="col-2 text-center pt-4">
           <i class="fas fa-user fa-contact"></i>
         </div>
-        <div class="col-9 info-contact-col-2  info-contact-col-2-first pt-3 text-about-me">
-          I'm a motivated developer with no work experience.
-          Developed front and back-end features using Ruby on Rails, HTML, CSS, GIT and
-          related technologies
+        <div class="col-10 info-contact-col-2  info-contact-col-2 pt-3 text-about-me">
+          Замотивированный Ruby on Rails разработчик.
+          С 2011 по 2020 год был владельцем ресторана доставки еды. За время работы получил ключевые навыки, такие как:
+          постановка и выполнение задач, ответственность, работа в команде. В 2017 увлекся программированием для решения
+          бизнес-вопросов. Первый стек технологий - Visual Basic, WinForms и MySQL.
+          С 2019 программирую на Ruby и Ruby on Rails.
         </div>
       </div>
-      <div class="row contact-info">
-        <div class="col-3 text-center pt-4">
-          <i class="fas fa-phone-alt fa-contact"></i>
+      <div class="sticky">
+        <div class="row contact-info">
+          <div class="col-2 text-center pt-4">
+            <i class="fas fa-phone-alt fa-contact"></i>
+          </div>
+          <div class="col-10 info-contact-col-2 pt-3 text-about-me text-large">
+            <a class="about-me-link" href="tel:+79001984500">+7 900 19 84 500</a>
+          </div>
         </div>
-        <div class="col-9 info-contact-col-2 pt-3 text-about-me text-large">
-          <a href="tel:+79001984500">+7 900 19 84 500</a>
+        <div class="row contact-info">
+          <div class="col-2 text-center pt-4">
+            <i class="fas fa-envelope fa-contact"></i>
+          </div>
+          <div class="col-10 info-contact-col-2 pt-3 text-about-me text-middle">
+            <a class="about-me-link" href="mailto:kkrasilov@gmail.com">kkrasilov@gmail.com</a>
+          </div>
         </div>
-      </div>
-      <div class="row contact-info">
-        <div class="col-3 text-center pt-4">
-          <i class="fas fa-envelope fa-contact"></i>
-        </div>
-        <div class="col-9 info-contact-col-2 pt-3 text-about-me text-middle">
-          <a href="mailto:kkrasilov@gmail.com">kkrasilov@gmail.com</a>
-        </div>
-      </div>
-      <div class="row contact-info">
-        <div class="col-3 text-center pt-4">
-          <i class="fas fa-home fa-contact"></i>
-        </div>
-        <div class="col-9 info-contact-col-2 pt-3 text-about-me text-middle">
-          Russia, Sverdlovsk region, Nijnii Tagil
+        <div class="row contact-info">
+          <div class="col-2 text-center pt-4">
+            <i class="fas fa-home fa-contact"></i>
+          </div>
+          <div class="col-10 info-contact-col-2-end pt-3 text-about-me text-middle">
+            Россия, Свердловская область, г. Нижний Тагил
+          </div>
         </div>
       </div>
     </div>
@@ -65,14 +69,74 @@
           <i class="fas fa-suitcase fa-large"></i>
         </div>
         <div class="col-10 pt-3 text-secondary int-info">
-          <h3>Professional Skills</h3>
+          <h3>Навыки</h3>
           <ul class="list-skills">
-            <li>Ruby</li>
-            <li>Ruby on Rails</li>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>SQLite/MySQL</li>
+            <li class="list-list">
+              <span class="skills-title">Ruby</span><br>
+              понимание принципов ООП, важности code style и работы с гемами
+            </li>
+            <li class="list-list">
+              <h5 class="skills-title">Ruby on Rails</h5>
+              <ul>
+                <li><strong>MVC</strong> - понимание паттерна</li>
+                <li>
+                  <strong>RSpec</strong> - понимаю важность покрытия кода тестами. При тестировании работал с гемом
+                  <span class="text-semi-bold">FactoryBot</span>. Для
+                  интеграционных тестов использовал гем <span class="text-semi-bold">Capybara</span>
+                </li>
+                <li><strong>I18n</strong> - работал с локализацией и гемом <span
+                  class="text-semi-bold">rails-i18n</span></li>
+                <li><strong>Active Record</strong> - создание миграций, постороение запросов к базе данных, определение
+                  связей в моделях, создание валидаций</li>
+                <li><strong>Active Job</strong> - отправлял почту пользователям приложения в фоновом режиме. Работал с
+                  гемом <span class="text-semi-bold">Resque</span> и NoSQL базой
+                  данных <span class="text-semi-bold">Redis</span> для хранения фоновых задач.
+                </li>
+                <li><strong>Action Mailer</strong> - отправлял почту через <span
+                  class="text-semi-bold">SendGrid API</span>. В development-окружении работал с гемом
+                  <span class="text-semi-bold">Letter Opener</span>
+                </li>
+                <li><strong>Action Cable</strong> - в рамках учебного проекта был реализован онлайн-чат, где
+                  пользователи могли отправлять друг другу сообщения в реальном времени, а также видеть, кто сейчас
+                  онлайн
+                  <a href="https://github.com/kkrasilov/instatalk" rel="noopener noreferrer" target="_blank">
+                    (ссылка на проект)
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <li class="list-list">
+              <h5 class="skills-title">Databases</h5>
+              работа с основными командами БД - <code>SELECT, UPDATE, INSERT, DELETE, WHERE, GROUP BY, ORDER BY,
+              JOIN</code>
+            </li>
+            <li class="list-list">
+              <h5 class="skills-title">Frontend</h5>
+              <strong>HTML, CSS, Bootstrap4</strong> - адаптивная верстка
+              <a href="https://kkrasilov.github.io/babywearing-consultant/" rel="noopener noreferrer" target="_blank">
+                (пример своего лендинга)
+              </a><br>
+              <strong>JQuery, JavaScript</strong> - на базовом уровне
+            </li>
+            <li class="list-list">
+              <h5 class="skills-title">Technologies</h5>
+              <ul>
+                <li><strong>Git</strong> - понимаю важность осмысленных коммитов. Работаю с командами <code>push, pull,
+                  rebase, squash, amend</code>
+                </li>
+                <li><strong>GitHub</strong> - pull request, code review</li>
+              </ul>
+            </li>
+            <li class="list-list">
+              <h5 class="skills-title">Deploy</h5>
+              <ul>
+                <li><strong>Heroku</strong> - разворачивал приложение, работал с логами</li>
+                <li><strong>DigitalOcean, Ubuntu, Nginx + Passenger, PostgresSQL</strong> - развертывание VPS сервера
+                <li><strong>Гем Capistrano</strong> - работал с гемом для быстрого деплоя на сервер</li>
+              </ul>
+            </li>
           </ul>
+          <span class="text-dark">Языки: Русский | Английский - чтение статей и технической документации</span>
         </div>
       </div>
       <div class="row bg-white box-shadow mt-4 mb-4 ml-lg-1 ml-xl-1">
@@ -80,9 +144,108 @@
           <i class="fas fa-graduation-cap fa-large"></i>
         </div>
         <div class="col-10 pt-3 text-secondary int-info">
-          <h3>Education</h3>
-          <span>Good Programmer. Ruby, Ruby on Rails.</span><br>
-          <span class="text-date">JUN 2020 - OCT 2020</span>
+          <h3>Курсы</h3>
+          <a class="text-info" href="https://goodprogrammer.ru//" rel="noopener noreferrer" target="_blank">
+            Хороший программист. Ruby, Ruby on Rails
+          </a>
+          <br>
+          <span class="text-date">JUN 2020 - DEC 2020</span>
+        </div>
+      </div>
+      <div class="row bg-white box-shadow mt-4 mb-4 ml-lg-1 ml-xl-1">
+        <div class="col-2 pt-4 mb-3 text-center text-secondary">
+          <i class="fas fa-rocket fa-large"></i>
+        </div>
+        <div class="col-10 pt-3 text-secondary int-info">
+          <h3>Проекты</h3>
+        </div>
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title text-info">BBQ</h5>
+            <p class="card-text text-secondary">Приложение, с помощью которого легко создать любое событие (шашлыки, открытие библиотеки, рок концерт) и позвать на него всех друзей.
+              Пользователь создает событие с датой проведения, описанием, местоположением на карте, после чего на него
+              могут подписаться другие пользователи.
+              В созданном событии можно выкладывать фотографии и оставлять комментарии.<br>
+              В приложении реализован функционал:
+            </p>
+            <ul class="text-secondary" style="margin-top: -1em">
+              <li>Авторизация, аутентификация - <span class="badge badge-info">Devise, Pundit</span></li>
+              <li>Авторизация через соц.сети -
+                <span class="badge badge-info">OmniAuth Facebook, OmniAuth Vkontakte</span></li>
+              <li>Загрузка файлов - <span class="badge badge-info">Carrierwave</span></li>
+              <li>Отправка почты - <span class="badge badge-info">ActionMailer, SendGrid API</span></li>
+              <li>Фоновые задачи - <span class="badge badge-info">ActiveJob, Resque, Redis</span></li>
+              <li>Верстка - <span class="badge badge-info">Bootstrap4</span></li>
+            </ul>
+            <span class="badge badge-secondary">rails6</span>
+            <span class="badge badge-secondary">bootstrap4</span>
+            <span class="badge badge-secondary">capistrano</span>
+            <span class="badge badge-secondary">carrierwave</span>
+            <span class="badge badge-secondary">rspec</span>
+            <span class="badge badge-secondary">aws</span>
+            <span class="badge badge-secondary">devise</span><br>
+            <a href="https://partybbq.ru" class="btn btn-primary mt-2" rel="noopener noreferrer"
+               target="_blank">partybbq.ru</a>
+            <a href="https://github.com/kkrasilov/bbq" class="btn btn-primary mt-2" rel="noopener noreferrer"
+               target="_blank">Git Hub</a>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title text-info">Askme</h5>
+            <p class="card-text text-secondary">
+              Сайт вопросов и ответов. После регистрации пользователь заполняет свою анкету и может
+              - как от своего имени, так и анонимно - задавать свои вопросы и отвечать на вопросы других
+              пользователей.
+            </p>
+            <span class="badge badge-secondary">rails6</span>
+            <span class="badge badge-secondary">recaptchav2</span><br>
+            <a href="https://askme-please.herokuapp.com/" class="btn btn-primary mt-2" rel="noopener noreferrer"
+               target="_blank">askme-please.herokuapp.com</a>
+            <a href="https://github.com/kkrasilov/askme" class="btn btn-primary mt-2" rel="noopener noreferrer"
+               target="_blank">Git Hub</a>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title text-info">Game Hangman</h5>
+            <p class="card-text text-secondary">
+              Игра "Hangman" основана на популярной игре "Виселица". Игрок по буквам отгадывает
+              скрытое слово.
+            </p>
+            <span class="badge badge-secondary">ruby</span>
+            <span class="badge badge-secondary">game console</span><br>
+            <a href="https://github.com/kkrasilov/game_hangman" class="btn btn-primary mt-2" rel="noopener noreferrer"
+               target="_blank">Git Hub</a>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title text-info">Film evening</h5>
+            <p class="card-text text-secondary">
+              Програма-парсер. Находит 250 лучших фильмов по версии IMDb. По избранным фильмам
+              программа предложит список режисеров. Вы можете выбрать любого режиссера, чей фильм захотите сегодня
+              посмотреть. Программа сама подберет для Вас идеальный фильм на вечер!</p>
+            <span class="badge badge-secondary">ruby</span>
+            <span class="badge badge-secondary">rspec</span>
+            <span class="badge badge-secondary">nokogiri</span><br>
+            <a href="https://github.com/kkrasilov/film_evening" class="btn btn-primary mt-2" rel="noopener noreferrer"
+               target="_blank">Git Hub</a>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title text-info">Bi-currency portfolio</h5>
+            <p class="card-text text-secondary">
+              Программа узнает текущий курс доллара с сайта Центрального Банка России, сравнивает суммы по валютам в вашем портфеле
+              и уравновешивает сбережения.
+            </p>
+            <span class="badge badge-secondary">ruby</span>
+            <span class="badge badge-secondary">nokogiri</span><br>
+            <a href="https://github.com/kkrasilov/bi-currency_portfolio" class="btn btn-primary mt-2"
+               rel="noopener noreferrer"
+               target="_blank">Git Hub</a>
+          </div>
         </div>
       </div>
     </div>
